@@ -1,0 +1,12 @@
+.Container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+
+.Container h1{
+    color: white;
+}

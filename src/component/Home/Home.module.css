@@ -1,0 +1,56 @@
+.Home{
+    
+background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 67%); 
+    display: flex;
+    height: 630px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.Home .Container{
+    position: absolute;
+    left: 15%;
+}
+
+.Home .Container h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.Home .Container .Developer{
+    font-size: 25px;
+}
+
+.Home .Chip {
+    display: none;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    height: 20%;
+}
+
+.Home .Network {
+    position: absolute;
+    height: 60%;
+    right: 2%;
+    bottom: 2%;
+    
+}
+
+@media screen and (min-width: 570px) {
+    .Home .Chip{
+        display: block;
+    }
+    
+    .Home .Container h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .Home .Network{
+        height: 80%;
+        right: 0;
+    }
+}

@@ -1,0 +1,39 @@
+.AboutMe{
+    background: black;
+    color: white;
+}
+
+.AboutMe .Container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutMe .Container .Text{
+    width: 80%;
+    margin: 5%;
+}
+
+.AboutMe .Container .Text h2{
+    font-size: 40px;
+}
+
+.AboutMe .Container .Portrait{
+    margin: 0 5%;
+}
+
+.AboutMe .Container .Portrait .Selfie{
+    height: 600px;
+    border-radius: 4%;
+}
+
+@media screen and (min-width: 996px) {
+    .AboutMe .Container .Text{
+        width: 60%;
+    }
+    .AboutMe .Container{
+        flex-direction: row;
+        
+    }
+}

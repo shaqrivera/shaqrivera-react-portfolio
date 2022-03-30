@@ -1,0 +1,65 @@
+.Work{
+    background-image: url('../img/taiwan.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #EAF4D3;
+    margin: 5%;
+    padding: 30px;
+    border-radius: 5%;
+    -webkit-box-shadow: 47px 22px 59px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 47px 22px 59px 12px rgba(0,0,0,0.75);
+    box-shadow: 47px 22px 59px 12px rgba(0,0,0,0.75);
+}
+
+.Card .CardHeader{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Card img{ 
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.Card .Live, .Card .Repo{
+    cursor: pointer;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 30%;
+    bottom: 1%;
+    margin: 0;
+}
+
+.Card .Live:hover, .Card .Repo:hover{
+    color: black;
+    background-color: white;
+}
+
+.Card .Live{
+    left: 1%;
+}
+
+.Card .Repo{
+    right: 1%;
+}
+
+@media screen and (min-width: 850px) {
+   .Card{
+       flex-basis: 30%;
+   }
+}
