@@ -10,7 +10,7 @@ const Contact = () => {
             <div className={classes.Links}>
                 <div className={classes.Link}>
                     <FaGithub color='white' size='40px'/>
-                    <p onClick={(e) => window.open('https://github.com/shaqrivera', "_blank").focus}>Email Me</p>
+                    <p onClick={(e) => window.open('https://github.com/shaqrivera', "_blank").focus}>Github</p>
                 </div>
                 <div className={classes.Link}>
                     <FaLinkedin color='white' size='40px'/>
