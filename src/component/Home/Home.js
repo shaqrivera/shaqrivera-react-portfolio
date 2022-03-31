@@ -4,7 +4,7 @@ import network from '../img/network.svg'
 
 const Home = () => {
     return (
-        <div className={classes.Home}>
+        <div id='home' className={classes.Home}>
             <div className={classes.Container}>
                 <h1>Shaquille Rivera</h1>
                 <h1 className={classes.Developer}>Full Stack Developer</h1>

@@ -1,9 +1,8 @@
 import classes from './Skills.module.css';
-import PageHeader from '../PageHeader/PageHeader.js';
 
 const Skills = () => {
     return (
-    <div className={classes.Skills}>
+    <div id='skills' className={classes.Skills}>
         {/* <PageHeader title={'Skills'} /> */}
         <div className={classes.PageHeader}>
             <h1>

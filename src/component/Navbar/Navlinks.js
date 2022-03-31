@@ -1,24 +1,52 @@
-const Navlinks = () => {
+import {motion} from 'framer-motion';
+
+const Navlinks = (props) => {
+    const from = {opacity:0, y: 50}
+    const to = {opacity:1, y: 0}
+
     return (
         <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
+            <motion.li
+            initial = {from}
+            animate = {to}
+             onClick={()=>props.mobile && props.closeMenu()}>
+                <a href="#home">Home</a>
+            </motion.li>
+            <motion.li
+            initial = {from}
+            animate = {to}
+            transition = {{delay: .1}}
+            onClick={()=>props.mobile && props.closeMenu()}>
                 <a href="/#about">About Me</a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li 
+            initial = {from}
+            animate = {to}
+            transition = {{delay: .2}}
+            onClick={()=>props.mobile && props.closeMenu()}>
                 <a href="/#skills">Skills</a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li 
+            initial = {from}
+            animate = {to}
+            transition = {{delay: .3}}
+            onClick={()=>props.mobile && props.closeMenu()}>
                 <a href="/#work">My Work</a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li 
+            initial = {from}
+            animate = {to}
+            transition = {{delay: .4}}
+            onClick={()=>props.mobile && props.closeMenu()}>
                 <a href="/#resume">Resume</a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li 
+            initial = {from}
+            animate = {to}
+            transition = {{delay: .5}}
+            onClick={()=>props.mobile && props.closeMenu()}>
                 <a href="/#contact">Contact Me</a>
-            </li>
+            </motion.li>
         </ul>
     );
 }

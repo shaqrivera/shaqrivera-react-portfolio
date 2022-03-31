@@ -5,7 +5,7 @@ import {MdAlternateEmail} from 'react-icons/md';
 
 const Contact = () => {
     return (
-        <div className={classes.Contact}>
+        <div id='contact' className={classes.Contact}>
             <PageHeader title={'Contact Me'}/>
             <div className={classes.Links}>
                 <div className={classes.Link}>

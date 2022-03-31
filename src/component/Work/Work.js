@@ -17,7 +17,7 @@ const WorkCard = (liveUrl, repoUrl, img, projectName) => {
 
 const Work = () => {
     return (
-        <div>
+        <div id='work'>
 
         
         <div className={classes.Work}>
