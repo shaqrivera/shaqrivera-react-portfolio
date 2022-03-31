@@ -1,0 +1,23 @@
+.Resume{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+height: 600px;
+background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/milky-way.jpg');
+}
+
+
+
+.Resume .Link{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Resume .Link:hover{
+    background: -webkit-linear-gradient(45deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
