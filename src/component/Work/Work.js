@@ -2,6 +2,7 @@ import classes from './Work.module.css';
 import proEventPlanning from '../img/pro-event-planning.png';
 import feedMeFoodFinder from '../img/feed-me-food-finder-landing-page.png';
 import blogWaffle from '../img/blog-waffle.png';
+import PageHeader from '../PageHeader/PageHeader.js';
 
 const WorkCard = (liveUrl, repoUrl, img, projectName) => {
     return(
@@ -16,10 +17,18 @@ const WorkCard = (liveUrl, repoUrl, img, projectName) => {
 
 const Work = () => {
     return (
+        <div>
+
+        
         <div className={classes.Work}>
+            <PageHeader title={'My Work'} />
+            <div className={classes.WorkCards}>
             {WorkCard('https://shaq-pro-event-planning.herokuapp.com/','https://github.com/jhara0994/Pro-Event-Planning', proEventPlanning, 'Pro Event Planning')}
             {WorkCard('https://jesshaff.github.io/feed-me-food-finder-project-1/','https://github.com/jesshaff/feed-me-food-finder-project-1',feedMeFoodFinder,'Feed Me Food Finder')}
-            {WorkCard('https://blog-waffle.herokuapp.com/','https://github.com/shaqrivera/blog-waffle',blogWaffle,'Blog Waffle')}
+            {WorkCard('https://blog-waffle.herokuapp.com/','https://github.com/shaqrivera/blog-waffle',blogWaffle,'Blog Waffle')} 
+            </div>
+            
+        </div>
         </div>
     );
 }

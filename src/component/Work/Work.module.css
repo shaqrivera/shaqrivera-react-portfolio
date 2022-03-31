@@ -1,5 +1,10 @@
 .Work{
-    background-image: url('../img/taiwan.jpg');
+    background-image: url('../img/atlanta.jpg');
+    background-size:cover; 
+}
+
+.WorkCards{
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -26,6 +31,7 @@
     font-size: 30px;
     text-align: center;
     font-weight: 900;
+    height: 100px;
 }
 
 .Card img{ 
@@ -38,11 +44,13 @@
     position: absolute;
     background-color: black;
     color: white;
-    font-weight: 600;
-    padding: 1%;
-    border-radius: 30%;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1% 3%;
+    border-radius: 100px;
     bottom: 1%;
-    margin: 0;
+    margin: 2%;
+    
 }
 
 .Card .Live:hover, .Card .Repo:hover{
