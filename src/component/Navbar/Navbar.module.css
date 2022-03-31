@@ -25,5 +25,41 @@
     color: white;
 }
 .Navbar nav ul li a:hover{
-    border-bottom: 5px solid blueviolet;
+    background: -webkit-linear-gradient(45deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Navbar .MobileNav{
+   display: none;
+}
+
+@media screen and (max-width: 996px) {
+    .Navbar .LargeNav{
+        display: none;
+    }
+    .Navbar .MobileNav{
+        display: flex;
+        align-items: center;
+    }
+
+    .Navbar .MobileNav .Hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    
+    .Navbar nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .Navbar nav ul li{
+        padding-left: 5%;
+    }
 }

@@ -1,0 +1,36 @@
+.Contact{
+    color: white;
+    height: 600px;
+}
+
+.Contact .Links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.Contact .Links .Link{
+    display: flex;
+    
+}
+
+.Contact .Links .Link p, .Contact .Links .Link a{
+    margin: 0 0 0 15px;
+    cursor: pointer;
+}
+
+.Contact .Links .Link p:hover, .Contact .Links .Link a:hover{
+    background: -webkit-linear-gradient(45deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Contact .Links .Link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+}
