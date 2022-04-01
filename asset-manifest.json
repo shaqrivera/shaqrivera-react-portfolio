@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shaqrivera-react-portfolio/static/css/main.53d52222.css",
+    "main.css": "/shaqrivera-react-portfolio/static/css/main.a7ef09be.css",
     "main.js": "/shaqrivera-react-portfolio/static/js/main.e79ca1e3.js",
     "static/js/27.a5fac70f.chunk.js": "/shaqrivera-react-portfolio/static/js/27.a5fac70f.chunk.js",
     "static/media/feed-me-food-finder-landing-page.png": "/shaqrivera-react-portfolio/static/media/feed-me-food-finder-landing-page.13965c2167238ecfe864.png",
@@ -14,7 +14,7 @@
     "index.html": "/shaqrivera-react-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.53d52222.css",
+    "static/css/main.a7ef09be.css",
     "static/js/main.e79ca1e3.js"
   ]
 }
