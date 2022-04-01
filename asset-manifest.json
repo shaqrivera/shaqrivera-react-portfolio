@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shaqrivera-react-portfolio/static/css/main.53d52222.css",
+    "main.js": "/shaqrivera-react-portfolio/static/js/main.8d3ab0bc.js",
+    "static/js/27.a5fac70f.chunk.js": "/shaqrivera-react-portfolio/static/js/27.a5fac70f.chunk.js",
+    "static/media/feed-me-food-finder-landing-page.png": "/shaqrivera-react-portfolio/static/media/feed-me-food-finder-landing-page.13965c2167238ecfe864.png",
+    "static/media/pro-event-planning.png": "/shaqrivera-react-portfolio/static/media/pro-event-planning.d11a54c350a1d50ceeee.png",
+    "static/media/selfie.jpeg": "/shaqrivera-react-portfolio/static/media/selfie.bd28e7032e86fbf66cb7.jpeg",
+    "static/media/milky-way.jpg": "/shaqrivera-react-portfolio/static/media/milky-way.ed4a1ccacc08eb609e56.jpg",
+    "static/media/blog-waffle.png": "/shaqrivera-react-portfolio/static/media/blog-waffle.4372e56d5d57f74ad7d3.png",
+    "static/media/atlanta.jpg": "/shaqrivera-react-portfolio/static/media/atlanta.e651b65dcf382f0d51ac.jpg",
+    "static/media/network.svg": "/shaqrivera-react-portfolio/static/media/network.9dd7f76c92befbed8a1ac7a584ccdd7e.svg",
+    "static/media/chip.svg": "/shaqrivera-react-portfolio/static/media/chip.7ee6e35616c6ef9a886295a3bef60fd9.svg",
+    "index.html": "/shaqrivera-react-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.53d52222.css",
+    "static/js/main.8d3ab0bc.js"
+  ]
+}
