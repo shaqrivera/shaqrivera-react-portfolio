@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/shaqrivera-react-portfolio/static/css/main.a7ef09be.css",
-    "main.js": "/shaqrivera-react-portfolio/static/js/main.e79ca1e3.js",
+    "main.css": "/shaqrivera-react-portfolio/static/css/main.7752763e.css",
+    "main.js": "/shaqrivera-react-portfolio/static/js/main.233d3567.js",
     "static/js/27.a5fac70f.chunk.js": "/shaqrivera-react-portfolio/static/js/27.a5fac70f.chunk.js",
     "static/media/feed-me-food-finder-landing-page.png": "/shaqrivera-react-portfolio/static/media/feed-me-food-finder-landing-page.13965c2167238ecfe864.png",
     "static/media/pro-event-planning.png": "/shaqrivera-react-portfolio/static/media/pro-event-planning.d11a54c350a1d50ceeee.png",
+    "static/media/art-store-screenshot.png": "/shaqrivera-react-portfolio/static/media/art-store-screenshot.fb448b492eb013b24632.png",
     "static/media/selfie.jpeg": "/shaqrivera-react-portfolio/static/media/selfie.bd28e7032e86fbf66cb7.jpeg",
     "static/media/milky-way.jpg": "/shaqrivera-react-portfolio/static/media/milky-way.ed4a1ccacc08eb609e56.jpg",
     "static/media/blog-waffle.png": "/shaqrivera-react-portfolio/static/media/blog-waffle.4372e56d5d57f74ad7d3.png",
@@ -14,7 +15,7 @@
     "index.html": "/shaqrivera-react-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.a7ef09be.css",
-    "static/js/main.e79ca1e3.js"
+    "static/css/main.7752763e.css",
+    "static/js/main.233d3567.js"
   ]
 }
