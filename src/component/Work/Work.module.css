@@ -4,7 +4,6 @@
 }
 
 .WorkCards{
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -12,13 +11,12 @@
 }
 
 .Card{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #EAF4D3;
+    background: black;
     margin: 5%;
     padding: 30px;
     border-radius: 5%;
@@ -28,6 +26,9 @@
 }
 
 .Card .CardHeader{
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 67%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
     text-align: center;
     font-weight: 900;
@@ -42,7 +43,6 @@
 .Card .Live, .Card .Repo{
     cursor: pointer;
     position: absolute;
-    background-color: black;
     color: white;
     font-weight: 500;
     font-size: 15px;
@@ -54,8 +54,9 @@
 }
 
 .Card .Live:hover, .Card .Repo:hover{
-    color: black;
-    background-color: white;
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 67%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Card .Live{
