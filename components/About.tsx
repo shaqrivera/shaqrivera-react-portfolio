@@ -5,10 +5,10 @@ import Image from "next/image";
 import SectionHeading from "./SectionHeading";
 
 const skills = {
-  Frontend: ["React", "TypeScript", "JavaScript", "HTML5", "CSS", "Tailwind"],
-  Backend: ["Node.js", "Python", "Express", "GraphQL", "Apollo"],
+  Frontend: ["React", "Redux", "Vue"],
+  Backend: ["Python", "Node.js", "Fastify", "FastAPI"],
   Infrastructure: ["AWS", "Terraform", "Docker"],
-  Databases: ["MySQL", "MongoDB"],
+  Databases: ["Postgres", "Redshift", "Cassandra", "MongoDB"],
 };
 
 export default function About() {
@@ -46,15 +46,21 @@ export default function About() {
           >
             <p className="mb-4 text-text-secondary leading-relaxed">
               I&apos;m a Senior Software Engineer at{" "}
-              <span className="text-text-primary font-medium">Osano</span>, where I build
-              privacy and compliance technology that helps organizations protect user data
-              at scale. I specialize in building complex, user-facing products from the
-              ground up — from initial architecture to production launch.
+              <span className="text-text-primary font-medium">Osano</span>, where I play a
+              key role in building products that help organizations manage privacy compliance
+              at scale. I&apos;m a core contributor to{" "}
+              <span className="text-text-primary font-medium">Unified Consent</span>, a
+              platform that centralizes consent and preference management across digital
+              properties — empowering users to control their data while giving organizations
+              audit-ready compliance across 50+ jurisdictions.
             </p>
             <p className="mb-8 text-text-secondary leading-relaxed">
-              With 4+ years of professional experience, I&apos;m passionate about creating
-              software that makes privacy accessible and compliance manageable for businesses
-              of all sizes.
+              I&apos;m also a key contributor to{" "}
+              <span className="text-text-primary font-medium">Compliance Check</span>, an
+              automated scanning tool that continuously monitors website privacy compliance,
+              detects dark patterns, and delivers actionable findings — helping teams move
+              from reactive to proactive compliance. With 4+ years of professional experience,
+              I specialize in building complex, user-facing products from the ground up.
             </p>
 
             {/* Skills */}

@@ -8,14 +8,14 @@ const projects = [
   {
     title: "Compliance Check",
     description:
-      "A website scanning and privacy compliance analysis platform. Scans web properties, generates compliance artifacts, and provides actionable insights for privacy teams to assess and improve their compliance posture.",
+      "Automated compliance scanning tool that continuously monitors website privacy compliance across multiple jurisdictions. Detects dark patterns, validates consent mechanisms, and delivers clear, actionable findings — helping teams eliminate guesswork and stay ahead of evolving regulations like CCPA and GDPR.",
     tags: ["Python", "TypeScript", "Node.js", "Postgres", "AWS Bedrock"],
     type: "Osano",
   },
   {
     title: "Unified Consent",
     description:
-      "Enterprise consent management suite that helps organizations manage user privacy preferences at scale. Built from day one, handling millions of consent interactions across global web properties.",
+      "A platform that centralizes consent and preference management across digital properties — from cookie consent to communications preferences and data processing permissions. Supports 50+ jurisdictions with audit-ready consent logs, real-time preference tracking, and integration with existing tech stacks.",
     tags: ["Vue", "TypeScript", "Node.js", "Cassandra", "Postgres", "Redshift"],
     type: "Osano",
   },
