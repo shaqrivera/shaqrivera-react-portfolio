@@ -52,10 +52,9 @@ export default function About() {
               ground up — from initial architecture to production launch.
             </p>
             <p className="mb-8 text-text-secondary leading-relaxed">
-              With 4+ years of professional experience and a Full Stack Development
-              certificate from Georgia Tech, I&apos;m passionate about creating software
-              that makes privacy accessible and compliance manageable for businesses of all
-              sizes.
+              With 4+ years of professional experience, I&apos;m passionate about creating
+              software that makes privacy accessible and compliance manageable for businesses
+              of all sizes.
             </p>
 
             {/* Skills */}

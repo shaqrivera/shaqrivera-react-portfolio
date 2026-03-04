@@ -40,18 +40,6 @@ const experiences = [
       },
     ],
   },
-  {
-    company: "Georgia Tech",
-    location: "Atlanta, GA",
-    roles: [
-      {
-        title: "Full Stack Development Certificate",
-        period: "2022",
-        description:
-          "Completed intensive full stack web development program covering modern JavaScript frameworks, databases, and deployment practices.",
-      },
-    ],
-  },
 ];
 
 export default function Experience() {

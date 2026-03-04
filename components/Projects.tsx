@@ -9,21 +9,21 @@ const projects = [
     title: "Compliance Check",
     description:
       "A website scanning and privacy compliance analysis platform. Scans web properties, generates compliance artifacts, and provides actionable insights for privacy teams to assess and improve their compliance posture.",
-    tags: ["React", "TypeScript", "Node.js", "AWS", "GraphQL"],
+    tags: ["Python", "TypeScript", "Node.js", "Postgres", "AWS Bedrock"],
     type: "Osano",
   },
   {
     title: "Unified Consent",
     description:
       "Enterprise consent management suite that helps organizations manage user privacy preferences at scale. Built from day one, handling millions of consent interactions across global web properties.",
-    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Terraform"],
+    tags: ["Vue", "TypeScript", "Node.js", "Cassandra", "Postgres", "Redshift"],
     type: "Osano",
   },
   {
     title: "Real Estate Lead Extractor",
     description:
       "Automated public data extraction tool built for real estate investors. Aggregates and processes publicly available property and owner data to generate qualified leads.",
-    tags: ["Python", "Node.js", "MongoDB"],
+    tags: ["Python", "OpenAI", "Crawlee"],
     type: "Personal",
   },
 ];
