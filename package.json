@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "npm run deploy",
-    "deploy": "scp -r out/* shaq@10.0.0.54:~/app/",
+    "deploy": "rsync -avz --delete out/ shaq@10.0.0.54:~/app/",
     "start": "next start",
     "lint": "next lint"
   },
