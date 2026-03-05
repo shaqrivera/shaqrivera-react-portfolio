@@ -8,9 +8,9 @@ import Button from "./Button";
 const contactLinks = [
   {
     label: "Email",
-    href: "mailto:shaq.rivera@gmail.com",
+    href: "mailto:me@shaqrivera.com",
     icon: FaEnvelope,
-    display: "shaq.rivera@gmail.com",
+    display: "me@shaqrivera.com",
   },
   {
     label: "GitHub",
@@ -70,7 +70,7 @@ export default function Contact() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Button href="mailto:shaq.rivera@gmail.com">Send me an email</Button>
+          <Button href="mailto:me@shaqrivera.com">Send me an email</Button>
         </motion.div>
       </div>
     </section>

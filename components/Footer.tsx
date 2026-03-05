@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     label: "Email",
-    href: "mailto:shaq.rivera@gmail.com",
+    href: "mailto:me@shaqrivera.com",
     icon: FaEnvelope,
   },
 ];
